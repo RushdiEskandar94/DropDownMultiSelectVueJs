@@ -9,7 +9,11 @@ This project demonstrates how to create a reusable Vue dropdown component with c
    git clone https://github.com/RushdiEskandar94/DropDownVueJs.git
    cd DropDownVueJs
 
-DropDownVueJs/
+### Project Directory Structure
+
+Your project directory should look like this:
+
+  DropDownVueJs/
 │
 ├── dist/
 │ ├── index.html
@@ -28,6 +32,14 @@ DropDownVueJs/
 ├── webpack.config.js
 
 ### Full Project Example
+
+npm install
+
+npm start
+
+
+npm run build
+
 
 Here is the complete content of each file for reference:
 
