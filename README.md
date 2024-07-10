@@ -7,7 +7,7 @@ This project demonstrates how to create a reusable Vue dropdown component with c
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/RushdiEskandar94/DropDownVueJs.git
-   cd DropDownVueJs
+
 
 ### Project Directory Structure
 
