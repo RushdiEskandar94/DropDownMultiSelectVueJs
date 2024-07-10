@@ -1,0 +1,123 @@
+.dropdown-menu {
+    width: 100%;
+    display: none;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+.dropdown-menu.show {
+    display: block;
+}
+.dropdown input[type="text"] {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+.dropdown input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.form-check-label {
+    font-weight: 500;
+    color: #343a40;
+}
+.form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.form-check-input {
+    cursor: pointer;
+}
+.dropdown .form-control::placeholder {
+    color: #6c757d;
+}
+.dropdown .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.dropdown li {
+    list-style: none;
+}
+.dropdown-menu li:hover {
+    background-color: #eaeefe;
+}
+.dropdown .search-input {
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .dropdown input[type="text"] {
+        font-size: 14px;
+    }
+    .dropdown-menu {
+        max-height: 200px;
+        padding: 0.2rem;
+    }
+    .dropdown .search-input {
+        padding: 0.3rem;
+    }
+    .dropdown-menu li {
+        margin: 0.1rem;
+        padding: 0.3rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .dropdown input[type="text"] {
+        font-size: 16px;
+    }
+    .dropdown-menu {
+        max-height: 250px;
+        padding: 0.3rem;
+    }
+    .dropdown .search-input {
+        padding: 0.4rem;
+    }
+    .dropdown-menu li {
+        margin: 0.2rem;
+        padding: 0.4rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .dropdown input[type="text"] {
+        font-size: 18px;
+    }
+    .dropdown-menu {
+        max-height: 300px;
+        padding: 0.4rem;
+    }
+    .dropdown .search-input {
+        padding: 0.5rem;
+    }
+    .dropdown-menu li {
+        margin: 0.3rem;
+        padding: 0.5rem;
+    }
+}
+@media (min-width: 992px) {
+    .dropdown input[type="text"] {
+        font-size: 20px;
+    }
+    .dropdown-menu {
+        max-height: 350px;
+        padding: 0.5rem;
+    }
+    .dropdown .search-input {
+        padding: 0.6rem;
+    }
+    .dropdown-menu li {
+        margin: 0.4rem;
+        padding: 0.6rem;
+    }
+}
